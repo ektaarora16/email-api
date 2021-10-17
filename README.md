@@ -1,11 +1,9 @@
-messageapi
+email api
 ==========
 
 The API to send the message by the email or the sms.
 
 ## How to write the plugin?
-
-For the api interface, see the [doc](http://godoc.org/?q=github.com/xgfone/messageapi).
 
 For the invariable arguments each time to call the send interface, you should receive it by the interface mentod of `Load`; or use `context.Context`, such as `context.WithValue`.
 
